@@ -1,0 +1,83 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrap {
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    background-color: #fbfbfb;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+#wrap img {
+    max-height: 100px;
+}
+#toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+#close {
+    display: inline-block;
+}
+#close img {
+    max-height: 24px;
+}
+#time {
+    display: inline-block;
+    padding: 5px;
+}
+#search {
+    padding: 15px;
+}
+#search img {
+    max-width: 30px;
+}
+input {
+    height: 34px;
+    font-size: medium;
+}
+input[type=text], input[type=password] {
+    outline: none;
+    padding: 4px;
+    margin: 6px 0px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    border: 1px solid #bfbfbf;
+} 
+button {
+    border-radius: 5px;
+    height: 34px;
+    border: 1px solid #ececec;
+    background-color: #efefef;
+    font-size: medium;
+}
+button img {
+    max-width: 30px;
+}
+button:hover {
+    cursor: pointer;
+    border: 1px solid #cccccc;
+}
+table {
+    width: 600px;
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+table img {
+    max-width: 40px;
+}
+tr, td {
+    border: 1px solid #e4e4e3;
+    background-color: #ffffff;
+    text-align: center;
+    table-layout: fixed;
+    padding: 10px;
+}
